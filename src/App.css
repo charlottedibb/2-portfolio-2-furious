@@ -21,7 +21,7 @@ p {
   justify-content: flex-end;
   align-items: flex-start;
   height: 100vh;
-  background-image: url("./components/whiteRectangle.png");
+  background-image: url("./components/whiteWave.png");
   background-repeat: repeat-x;
   background-position: bottom;
   background-color: #efefef;
@@ -31,7 +31,16 @@ p {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding: 50px;
+  padding-bottom: 50px;
+}
+
+.intro-image {
+  height: auto;
+  min-width: 200px;
+  max-width: 30vw;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  filter: drop-shadow(-1px 0px 0px rgb(0, 0, 0));
 }
 
 @media only screen and (min-width: 1000px) {
@@ -39,16 +48,46 @@ p {
     margin-bottom: -200px;
   }
 
+  .intro-image {
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+
   h2 {
     font-size: 50px;
   }
 }
 
-.intro-image {
-  height: auto;
-  min-width: 200px;
-  max-width: 30vw;
-  margin-left: 100px;
+/* about section */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80vh;
+  background-image: url("./components/smallHome.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: white;
+  background-size: 250px;
   margin-bottom: 100px;
-  filter: drop-shadow(-1px 0px 0px rgb(0, 0, 0));
+}
+
+.about-image {
+  height: auto;
+  width: 150px;
+  filter: drop-shadow(1px 0px 0px rgb(0, 0, 0));
+}
+
+@media only screen and (min-width: 1000px) {
+  .about {
+    background-image: url("./components/Home.png");
+    background-size: 1000px;
+  }
+
+  .about-image {
+    width: 300px;
+  }
+
 }
