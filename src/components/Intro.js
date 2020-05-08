@@ -9,7 +9,7 @@ export default function Intro() {
           <p>I'm a full stack web developer.</p>
         </div>
       </div>
-      <img src={require("./walking.png")} className="intro-image" />
+      <img src={require("./walking.png")} className="intro-image" alt="cartoon running person"/>
     </div>
   );
 }
