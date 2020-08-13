@@ -7,66 +7,31 @@ body {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 20px;
   font-weight: 300;
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
-/* intro section */
-
-.intro {
+.App {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  height: 100vh;
-  background-image: url("./components/whiteWave.png");
-  background-repeat: repeat-x;
-  background-position: bottom;
-  background-color: #efefef;
-  /* this is for background color rudely showing below background image */
-  box-shadow: inset 0 -5px 0 white;
+  height: fit-content;
+  /* padding: 32px; */
 }
 
-.intro-text {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding-bottom: 50px;
-}
-
-.intro-image {
-  height: auto;
-  min-width: 200px;
-  max-width: 30vw;
-  margin-left: 50px;
-  margin-bottom: 50px;
-  filter: drop-shadow(-1px 0px 0px rgb(0, 0, 0));
-}
-
-/* desktop styles for intro section */
-
-@media only screen and (min-width: 1000px) {
-  .intro-text {
-    margin-bottom: -200px;
-  }
-
-  .intro-image {
-    margin-left: 100px;
-    margin-bottom: 100px;
-  }
-
-  h2 {
-    font-size: 50px;
-  }
-
-  p {
-    font-size: 20px;
-  }
-}
 
 /* about section */
 
@@ -76,7 +41,7 @@ p {
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  background-image: url("./components/smallHome.png");
+  background-image: url("./media/smallHome.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-color: white;
@@ -110,7 +75,7 @@ p {
 
 @media only screen and (min-width: 1000px) {
   .about {
-    background-image: url("./components/Home.png");
+    background-image: url("./media/Home.png");
     background-size: 1000px;
   }
 
@@ -122,4 +87,20 @@ p {
     height: 350px;
   }
 
+}
+
+
+/* tech stack */
+
+.brand-icon {
+  background-color: pink;
+  fill: white;
+}
+
+/* more section */
+
+.xstitch {
+  height: 200px;
+  width: auto;
+  filter: drop-shadow(-1px 5px 5px rgb(72, 72, 72));
 }
