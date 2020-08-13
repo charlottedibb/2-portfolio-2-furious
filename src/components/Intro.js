@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import FadeIn from "react-fade-in";
 import { ReactComponent as Arrow } from "../media/arrow-down.svg";
 
