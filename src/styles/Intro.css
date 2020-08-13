@@ -1,0 +1,83 @@
+.intro {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../media/whiteWave.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-color: #efefef;
+  /* this is for background color rudely showing below background image */
+  box-shadow: inset 0 -5px 0 white;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2.text-wrap {
+  display: block;
+  margin: 8px 0px;
+}
+
+.intro-image {
+  height: auto;
+  min-width: 200px;
+  max-width: 30vw;
+  filter: drop-shadow(-1px 0px 0px rgb(0, 0, 0));
+}
+
+.intro p {
+  margin-bottom: 16px;
+  color: rgb(64, 71, 245);
+}
+
+.arrow {
+  margin-right: 200px;
+}
+
+.arrow:hover {
+  filter: invert(22%) sepia(65%) saturate(6675%) hue-rotate(240deg) brightness(101%) contrast(92%);
+  filter: drop-shadow(0px 2px 1px -1px rgba(0, 0, 0, 0.2))
+}
+
+/* desktop styles for intro section */
+
+@media only screen and (min-width: 767px) {
+  .intro {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    /* align-items: center; */
+  }
+
+  .intro-text {
+    height: 100%;
+    margin: 48px;
+  }
+
+  .intro h2 {
+    font-size: 60px;
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+
+  .intro p {
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+
+  h2.text-wrap {
+    display: inline-block;
+  }
+
+  .intro-image {
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+}
