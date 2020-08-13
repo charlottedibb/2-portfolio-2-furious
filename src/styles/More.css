@@ -1,0 +1,30 @@
+.more h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.more {
+  margin: 64px 0px;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-image: url(../media/blob.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 900px;
+}
+
+.more-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+}
+
+#pointing {
+  height: 250px;
+  filter: drop-shadow(-1px 0px 0px rgb(0, 0, 0));
+  margin-right: 16px;
+}
