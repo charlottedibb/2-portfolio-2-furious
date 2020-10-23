@@ -1,0 +1,18 @@
+.resume {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.resume-footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.resume-footer a {
+  text-decoration: none;
+  color: #2E38C9
+}
