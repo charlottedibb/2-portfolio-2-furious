@@ -1,0 +1,46 @@
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 32px 0px 64px;
+  align-items: center
+}
+
+.contact ul {
+  display: flex;
+  padding: 32px 16px;
+  width: 300px;
+  justify-content: space-evenly;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  color: #2E38C9;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contact li :hover {
+  font-weight: bold
+}
+
+.contact li p {
+  padding-left: 8px;
+}
+
+.contact .contact-icon {
+  height: 24px;
+  width: 24px;
+}
+
+#resume-link {
+  color: black
+}
+
+#resume-link p:last-child{
+  color: #2E38C9;
+}
+#resume-link p:last-child:hover{
+  font-weight: bold
+}
