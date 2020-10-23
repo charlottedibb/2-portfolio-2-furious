@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -7,6 +7,7 @@ import More from "./components/More";
 import MyForm from "./components/MyForm";
 import TechStack from "./components/TechStack";
 import Resume from "./components/Resume"
+import Contact from "./components/Contact"
 
 import "./App.css";
 import "./styles/Projects.css";
@@ -33,7 +34,7 @@ function App() {
             <Projects />
             <More />
             <MyForm />
-            <Link to="/resume">Resume</Link>
+            <Contact />
           </Route>
         </Switch>
       </div>
