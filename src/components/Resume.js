@@ -31,6 +31,7 @@ export default function Resume() {
             padding: "0",
             margin: "0"
           }}
+          title="Charlotte Dibb's Resume"
           src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAELGnRHQtw&#x2F;view?embed"
         ></iframe>
       </div>
