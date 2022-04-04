@@ -19,7 +19,7 @@ export default function Intro(props) {
           <h2>Hey.</h2>
           <h2 className="text-wrap">I'm Charlotte.</h2>
           <div onClick={props.executeScroll}>
-            <p>I'm a full stack web developer.</p>
+            <p>I'm a full stack developer.</p>
             <Arrow style={{ height: "48px", width: "48px" }} className="arrow"/>
           </div>
         </FadeIn>
