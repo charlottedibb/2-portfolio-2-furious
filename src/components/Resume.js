@@ -20,7 +20,7 @@ export default function Resume() {
             marginBottom: "0.9em",
             overflow: "hidden",
             borderRadius: "8px",
-            willChange: "transform"
+            willChange: "transform",
           }}
         >
           <iframe
@@ -32,10 +32,10 @@ export default function Resume() {
               left: "0",
               border: "none",
               padding: "0",
-              margin: "0"
+              margin: "0",
             }}
             title="Charlotte Dibb's Resume"
-            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAELGnRHQtw&#x2F;view?embed"
+            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE89_v8L8k&#x2F;view?embed"
           ></iframe>
         </div>
         <div className="resume-footer">
